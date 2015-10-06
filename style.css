@@ -1,0 +1,74 @@
+body {
+    background-color: lightgrey;
+    color: black;
+    font-family: arial;
+}
+h1 {
+    
+}
+title {
+    color:blue;
+}
+#navbar-brand-top {
+    color: black;
+}
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+.navbar {
+    border-bottom: 3px solid black;
+    background-color: ivory;
+}
+
+section {
+    border-bottom: 3px solid black;
+    padding: 15px;
+}
+
+.about-section{
+    background-color: lightblue;
+    color: grey;
+    padding-top: 20px;
+
+}
+#about-wheel {
+    margin: 0 auto;
+    height: 30%;
+    width: 30%;
+    margin-top: 25px;
+    padding: 30px;
+}
+#programs {
+    padding-top: 30px;
+
+}
+.programs-section {
+    background-color: red;
+}
+#process {
+    padding: 30px;
+}
+.process-section {
+    background-color: gold;
+}
+#history{
+    padding: 30px;
+}
+.history-section {
+    background-color: black;
+    color: lightgrey;
+}
+#data {
+    padding: 30px;
+}
+.data-section {
+
+    background-color: lightblue;
+}
+#footer{
+    padding: 30px;
+}
+
+.footer-section {
+    background-color: gold;
+}

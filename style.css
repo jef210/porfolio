@@ -6,14 +6,12 @@ body {
 h1 {
     
 }
-title {
-    color:blue;
-}
+
 a {
-    color: black;
+    color: slategrey;
 }
 a:hover {
-    color: grey;
+    color: darkslategrey;
 }
 #navbar-brand-top {
     color: black;
@@ -34,8 +32,11 @@ section {
 .about-section{
     background-color: lightblue;
     color: grey;
-    padding-top: 20px;
+    /*padding-top: 20px;*/
 
+}
+#about-text {
+    display: hidden;
 }
 #about-wheel {
     margin: 0 auto;
@@ -49,32 +50,27 @@ section {
 
 }
 .examples-section {
-    background-color: red;
+    background-color: ivory;
 }
-#process {
-    padding: 30px;
-}
-.process-section {
-    background-color: gold;
-}
-#history{
-    padding: 30px;
-}
-.history-section {
-    background-color: black;
-    color: lightgrey;
-}
-#data {
-    padding: 30px;
-}
-.data-section {
 
+#what-i-do{
+    /*padding: 30px;*/
+}
+.what-i-do-section {
     background-color: lightblue;
+    color: white;
+}
+#other-stuff {
+    /*padding: 30px;*/
+}
+.other-stuff-section {
+
+    background-color: ivory;
 }
 #footer{
     padding: 30px;
 }
 
 .footer-section {
-    background-color: gold;
+    background-color: lightgrey;
 }

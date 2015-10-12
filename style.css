@@ -9,6 +9,12 @@ h1 {
 title {
     color:blue;
 }
+a {
+    color: black;
+}
+a:hover {
+    color: grey;
+}
 #navbar-brand-top {
     color: black;
 }

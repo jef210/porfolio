@@ -1,12 +1,9 @@
 (function(){
 
 $(document).ready(function(){
-    $('#programs').on('click', function(){
-        alert("hello");
-    });
-    $('.about-section').on('click', function(){
-        $('#about-text').slideToggle();
-
+    // Toggle the section content 
+    $('.content-click').on('click', function(){
+        $('#click-text').slideToggle();
     });
 });
 

@@ -1,0 +1,119 @@
+body {
+    background-color: lightgrey;
+    color: black;
+    font-family: helvetica;
+}
+h1 {
+    
+}
+
+a {
+    color: slategrey;
+}
+a:hover {
+    color: darkslategrey;
+}
+#navbar-brand-top {
+    color: black;
+}
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+.navbar {
+    border-bottom: 3px solid black;
+    background-color: ghostwhite;
+}
+
+section {
+    border-bottom: 3px solid black;
+    padding: 15px;
+}
+
+.landing-section{
+    position: relative;
+    height: 400px;
+    margin-top: 52px;
+    background-color: lightblue;
+    background-image:url('images/370205-mountain-view.jpg');
+    opacity: 50%;
+    background-size: auto 600px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+
+}
+.landing-logo {
+    background-image:url('images/jmalek-text-logo.svg');
+    height: 100px;
+    width: 40%;
+    background-color: lightgrey;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    margin-top: -150px;
+    border-radius: 10px;
+    
+}
+.jm-logo {
+    width: 960;
+    height: 263px;
+    background-image: url('images/jm_watercolor_logo_small.png');
+    /*background-color: pink;*/
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    /*position: absolute;*/
+    left: 50%;
+    margin-left: -80px;
+    top: 200px;
+}
+
+
+#about-text {
+    display: hidden;
+}
+#about-wheel {
+    margin: 0 auto;
+    height: 30%;
+    width: 30%;
+    margin-top: 25px;
+    padding: 30px;
+}
+#examples {
+    padding-top: 30px;
+
+}
+.examples-section {
+    background-color: ivory;
+}
+
+#what-i-do{
+    /*padding: 30px;*/
+}
+.what-i-do-section {
+    background-color: lightblue;
+    color: white;
+}
+#other-stuff {
+    /*padding: 30px;*/
+}
+.other-stuff-section {
+
+    background-color: ivory;
+}
+
+
+
+/*FOOTER*/
+
+
+#footer{
+    padding: 30px;
+}
+
+.footer-section {
+    background-color: lightgrey;
+}
+
+
